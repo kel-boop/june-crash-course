@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain outline at top -->
+  <g stroke="#C4A747" stroke-width="3" fill="none">
+    <!-- Left brain hemisphere -->
+    <path d="M 140 150 Q 130 120 145 100 Q 155 85 170 90 Q 175 110 170 130"/>
+    <path d="M 170 90 Q 180 75 195 80 Q 200 100 195 120"/>
+    <path d="M 195 80 Q 210 70 220 85 Q 215 110 210 130"/>
+    
+    <!-- Right brain hemisphere -->
+    <path d="M 230 100 Q 245 95 260 100 Q 270 120 260 150"/>
+    <path d="M 260 100 Q 275 80 290 90 Q 285 110 280 130"/>
+    <path d="M 290 90 Q 305 100 310 115 Q 300 130 290 135"/>
+  </g>
+  
+  <!-- Curved line connecting brain to book -->
+  <path d="M 200 150 Q 280 200 320 250" stroke="#C4A747" stroke-width="4" fill="none"/>
+  
+  <!-- Book -->
+  <g>
+    <!-- Book spine (center line) -->
+    <line x1="200" y1="240" x2="200" y2="330" stroke="#1B3B7F" stroke-width="8"/>
+    
+    <!-- Left page -->
+    <path d="M 120 260 L 200 240 L 200 330 L 120 350 Z" fill="#C4A747" opacity="0.3" stroke="#C4A747" stroke-width="2"/>
+    <path d="M 120 260 L 190 245 L 190 320 L 120 335 Z" fill="#C4A747" opacity="0.5" stroke="#C4A747" stroke-width="2"/>
+    
+    <!-- Right page -->
+    <path d="M 200 240 L 280 260 L 280 350 L 200 330 Z" fill="#C4A747" opacity="0.3" stroke="#C4A747" stroke-width="2"/>
+    <path d="M 210 245 L 280 260 L 280 335 L 210 320 Z" fill="#C4A747" opacity="0.5" stroke="#C4A747" stroke-width="2"/>
+    
+    <!-- Book bottom cover (dark blue) -->
+    <path d="M 120 350 L 200 330 L 280 350 Q 200 365 120 350" fill="#1B3B7F"/>
+  </g>
+  
+  <!-- KSB Text -->
+  <text x="200" y="200" font-family="Georgia, serif" font-size="120" font-weight="bold" text-anchor="middle" fill="#C4A747" letter-spacing="5">
+    KSB
+  </text>
+  
+  <!-- Tagline -->
+  <text x="200" y="370" font-family="Georgia, serif" font-size="36" text-anchor="middle" letter-spacing="3">
+    <tspan fill="#4A7C3A">RISING</tspan>
+    <tspan fill="#C4A747" letter-spacing="2">MIND</tspan>
+  </text>
+</svg>
